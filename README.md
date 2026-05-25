@@ -62,6 +62,7 @@ The analysis identified:
  
 # 1. Target 1: https://informacoes-limpabrasil2026.netlify.app/ 
 **1.1. VirusTotal investigation**
+
 **1.1.1. Phase1: initial analysis**
 
 The investigation of target https://informacoes-limpabrasil2026.netlify.app/ using virustotal indicates that:
@@ -80,6 +81,7 @@ Further investigation shows that:
 
 
 **1.2.Any.run investigation**
+
 **1.2.1. Phase1: Initial analysis**
 
 Initial analysis reveals that:
@@ -178,6 +180,7 @@ The analysis of https://informacoes-limpabrasil2026.netlify.app/ results in:
 
 # 2. Target 2: https://Skillwicked.cc/ 
 **2.1. VirusTotal investigation**
+
 **2.1.1. Phase1: initial analysis**
 
 The investigation of target https://Skillwicked.cc/ using virustotal indicates that:
@@ -195,6 +198,7 @@ Further investigation shows that:
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/c4404bb3-0a2d-4b4c-af6a-22779495a5ca" />
 
 **2.2.Any.run investigation**
+
 **2.2.1. Phase1: Initial analysis**
 
 Initial analysis of https://Skillwicked.cc/ reveals that:
@@ -283,6 +287,7 @@ The analysis of https://Skillwicked.cc/ results in:
 The target 6 exhibits similar activity patterns and malicious behavior as https://trzr-wallt-io.pages.dev/.
 
 **3.1. VirusTotal investigation**
+
 **3.1.1. Phase1: initial analysis**
 
 The investigation of target https://trzr-wallt-io.pages.dev/ using virustotal indicates that:
@@ -299,6 +304,7 @@ Further investigation shows that:
 <img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/fd213382-9db7-4ccc-a05f-2e3cd8076376" />
 
 **3.2.Any.run investigation**
+
 **3.2.1. Phase1: Initial analysis**
 
 Initial analysis of https://trzr-wallt-io.pages.dev/  reveals that:
@@ -308,6 +314,7 @@ Initial analysis of https://trzr-wallt-io.pages.dev/  reveals that:
 <img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/ca9a4755-a9ed-4d15-80c1-8306f18aedb6" />
 
 **3.1.2. Phase2: Deep Analysis**
+
 **DNS requests**
 
 Multiple DNS requests were observed. All contacted domains were whitelisted and considered safe, except trzr-wallt-io.pages.dev domain whose reputation is unknown.
@@ -379,6 +386,7 @@ The analysis of https://trzr-wallt-io.pages.dev/ results in :
 The target 10 exhibits similar activity patterns and malicious behavior as https://en-uphuuld-walet-us.pages.dev/.
 
 **4.1. VirusTotal investigation**
+
 **4.1.1. Phase1: initial analysis**
 
 The investigation of target https://en-uphuuld-walet-us.pages.dev/ using virustotal indicates that:
@@ -396,6 +404,7 @@ Further investigation shows that:
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/4b74896b-9c99-4366-bdab-3f1c29daf352" />
 
 **4.2.Any.run investigation**
+
 **4.2.1. Phase1:Initial analysis**
 
 Initial analysis of as https://en-uphuuld-walet-us.pages.dev/ reveals that:
@@ -508,6 +517,7 @@ The analysis of as https://en-uphuuld-walet-us.pages.dev/ results in :
 The target 19 to target 28 exhibits similar activity patterns and malicious behavior as http://185.208.159.132/harm7.
 
 **5.1. VirusTotal investigation**
+
 **5.1.1. Phase1: initial analysis**
 
 The investigation of target http://185.208.159.132/harm7 using virustotal indicates that:
@@ -525,6 +535,7 @@ Further investigation shows that:
 <img width="945" height="407" alt="image" src="https://github.com/user-attachments/assets/ad00591d-3781-4358-8583-9ecb4d33860b" />
 
 **5.2.Any.run investigation**
+
 **5.2.1. Phase1: Initial analysis**
 
 Initial analysis of http://185.208.159.132/harm7 reveals that:
