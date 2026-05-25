@@ -61,8 +61,8 @@ The analysis identified:
 ---
  
 # 1. Target 1: https://informacoes-limpabrasil2026.netlify.app/ 
-1.1. VirusTotal investigation
-1.1.1. Phase1: initial analysis
+**1.1. VirusTotal investigation**
+**1.1.1. Phase1: initial analysis**
 The investigation of target https://informacoes-limpabrasil2026.netlify.app/ using virustotal indicates that:
 - The URL was flagged as malicious by 8 of 95 security vendors and is associated with phishing activities. The detection score is not static and may evolve over time as additional security vendors analyze the link and update their assessment.
 - The HTTP response returned a 404 code status, indicating that the resource is not available.
@@ -70,7 +70,7 @@ The investigation of target https://informacoes-limpabrasil2026.netlify.app/ usi
 <img width="945" height="452" alt="image" src="https://github.com/user-attachments/assets/5d372ebe-f75b-415b-8d5a-1c55833de1e8" />
 
 
-1.1.2. Phase2: Deep Analysis
+**1.1.2. Phase2: Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created
@@ -78,8 +78,8 @@ Further investigation shows that:
 <img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/dc66ddab-139b-48f4-b037-600284fb1afa" />
 
 
-1.2.Any.run investigation
-1.2.1. Phase1: Initial analysis
+**1.2.Any.run investigation**
+**1.2.1. Phase1: Initial analysis**
 Initial analysis reveals that:
 - The response indicates the resource is not available (code status 404).
 - The response suggests that the link is invalid or doesn’t exist in Netlify and provides a troubleshooting link for sites not found
@@ -98,7 +98,7 @@ The AskNetlify page is an AI chatbot assistant. This behavior is suspicious and 
  
 All these activities confirm that the URL is malicious and part of a phishing campaign.
 
-1.1.2. Phase2: Initial Analysis
+**1.1.2. Phase2: Initial Analysis**
 
 **DNS requests**
 Multiple DNS requests were observed. All contacted domains were whitelisted and considered safe, except informacoes-limpabrasil2026.netlify.app domain whose reputation is unknown.
@@ -138,61 +138,67 @@ Monitoring the process activity revealed that process ID 2364 was involved in Di
 <img width="945" height="448" alt="image" src="https://github.com/user-attachments/assets/23196d6b-c1b6-4c28-a550-a1939bb143c4" />
 
 
-1.3. Techniques identification
+**1.3. Techniques identification**
+
 The malicious URL https://informacoes-limpabrasil2026.netlify.app/ uses the following techniques to evade detection:
 - Abuse of a trusted hosting platform (Netlify)
 - HTTPS
 
-1.4. Risk assessment
+**1.4. Risk assessment**
+
 The assessment identified the following threats:
 - Phishing 
 - Potential credential thefts are possible as the initial page redirects the victim to a page  containing login interface. Users who open the link and follow redirection chain are at risk
 - Risk level: high
 
-1.5. Finding 
+**1.5. Finding**
+
 The analysis of https://informacoes-limpabrasil2026.netlify.app/ results in:
 - Discovery Tactic TA007, techniques T10012 and T1082
 - Multi-stage redirection
 - Attempts to add new credentials to the device
 
-1.6.IOC
-URLs: 
-o	https://informacoes-limpabrasil2026.netlify.app/
-o	https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
-o	https://login.live.com/ppsecure/deviceaddcredential.srf
-IPs
-o	35.157.26.135
-o	63.176.8.218
-o	142.251.13.132
-o	98.84.224.111
-Domain
-o	informacoes-limpabrasil2026.netlify.app
+**1.6.IOC**
+
+**URLs:**
+- https://informacoes-limpabrasil2026.netlify.app/
+- https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
+- https://login.live.com/ppsecure/deviceaddcredential.srf
+
+**IPs**
+- 35.157.26.135
+- 63.176.8.218
+- 142.251.13.132
+- 98.84.224.111
+
+**Domain**
+  informacoes-limpabrasil2026.netlify.app
 
 # 2. Target 2: https://Skillwicked.cc/ 
-2.1. VirusTotal investigation
-2.1.1. Phase1: initial analysis
+**2.1. VirusTotal investigation**
+**2.1.1. Phase1: initial analysis**
 The investigation of target https://Skillwicked.cc/ using virustotal indicates that:
 - The URL was identified as malicious by 8 of 95 security vendors and is associated to phishing activity. The detection score is not static and may change over time, as additional security vendors analyze and update their assessment.
 The requested returned a 200 code status, indicating successful request
  
 <img width="945" height="452" alt="image" src="https://github.com/user-attachments/assets/646811bd-2c09-4187-bd5b-fc4106196ae1" />
 
-2.1.2. Phase2: Deep Analysis
+**2.1.2. Phase2: Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
  
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/c4404bb3-0a2d-4b4c-af6a-22779495a5ca" />
 
-2.2.Any.run investigation
-2.2.1. Phase1: Initial analysis
+**2.2.Any.run investigation**
+**2.2.1. Phase1: Initial analysis**
 Initial analysis of https://Skillwicked.cc/ reveals that:
 - The site is active and under construction.
 - The request returned a 200 code status, indicating that the resource is available
  
 <img width="983" height="134" alt="image" src="https://github.com/user-attachments/assets/704a2e01-b298-4ddf-8f02-ca48fd1dab97" />
 
-2.1.2. Phase2: Deep Analysis
+**2.1.2. Phase2: Deep Analysis**
 
 **DNS requests**
 Multiple DNS requests were observed. All contacted domains were whitelisted and considered safe, except skillwicked.cc domain whose reputation is unknown.
@@ -235,61 +241,66 @@ All these behaviors are suspicious and strong evidence of phishing campaign.Also
 
 <img width="983" height="503" alt="image" src="https://github.com/user-attachments/assets/740544e0-84a1-4e74-9a1b-98f74d2dae52" />
 
+**2.3. Techniques identification**
 
-2.3. Techniques identification
 The malicious URL uses the HTTPS technique to evade detection.
 
-2.4. Risk assessment
+**2.4. Risk assessment**
+
 The assessment identified the following threats:
 - Phishing
 - Potential malware delivery
 - Risk level: high
 
-2.5. Finding
+**2.5. Finding**
+
 The analysis of https://Skillwicked.cc/ results in:
 - Hidden malicious infrastructure
 - Discovery: tactic TA007, techniques T1012 and T1082
 - Brute force attempts
 
-2.6.IOC
-URLs: 
-o	https://Skillwicked.cc/ 
-o	https://login.live.com/ppsecure/deviceaddcredential.srf
-IPs
-o	188.114.96.3
-o	188.114.97.3
-o	172.67.209.143
-Domain
-o	skillwicked.cc
+**2.6.IOC**
 
+**URLs:**
+- https://Skillwicked.cc/
+- https://login.live.com/ppsecure/deviceaddcredential.srf
+
+**IPs**
+- 188.114.96.3
+- 188.114.97.3
+- 172.67.209.143
+  
+**Domain**
+- skillwicked.cc
+  
 # 3. Target 5–6: https://trzr-wallt-io.pages.dev/ , http://trzr-wallt-io.pages.dev 
 
 The target 6 exhibits similar activity patterns and malicious behavior as https://trzr-wallt-io.pages.dev/.
 
-3.1. VirusTotal investigation
-3.1.1. Phase1: initial analysis
+**3.1. VirusTotal investigation**
+**3.1.1. Phase1: initial analysis**
 The investigation of target https://trzr-wallt-io.pages.dev/ using virustotal indicates that:
 - The URL was identified as malicious by 18 of 95 security vendors and associated with phishing attempts. This detection score may increase over time, as additional security vendors analyze and update their assessment.
 - The request returned a 200 status code, indicating a successful request.
 
 <img width="945" height="451" alt="image" src="https://github.com/user-attachments/assets/47993607-4409-4a9f-ab36-e767f7f5c6d9" />
 
-3.1.2. Phase2: Deep Analysis
+**3.1.2. Phase2: Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
 
 <img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/fd213382-9db7-4ccc-a05f-2e3cd8076376" />
 
-3.2.Any.run investigation
-3.2.1. Phase1: Initial analysis
+**3.2.Any.run investigation**
+**3.2.1. Phase1: Initial analysis**
 Initial analysis of https://trzr-wallt-io.pages.dev/  reveals that:
 - The site is active, mimics legitimate cryptocurrency websites and appears like hardware that provides maximum security for cryptocurrency.
 - The request returned a 200 status code, indicating that the request is successful 
 
 <img width="945" height="450" alt="image" src="https://github.com/user-attachments/assets/ca9a4755-a9ed-4d15-80c1-8306f18aedb6" />
 
-3.1.2. Phase2: Deep Analysis
+**3.1.2. Phase2: Deep Analysis**
 **DNS requests**
 Multiple DNS requests were observed. All contacted domains were whitelisted and considered safe, except trzr-wallt-io.pages.dev domain whose reputation is unknown.
 
@@ -318,65 +329,71 @@ Monitoring the process activity revealed that process ID 4324 was involved in Di
 
 <img width="945" height="447" alt="image" src="https://github.com/user-attachments/assets/876a1745-6da0-4689-b9ad-7fceffbe0e0f" />
 
+**3.3. Techniques identification**
 
-3.3. Techniques identification
 The malicious URL uses the following techniques to evade detection 
 - Abuse of a trusted hosting platform (Cloudflare)
 - HTTPS
 
-3.4. Risk assessment
+**3.4. Risk assessment**
+
 The assessment identified the following threats:
 - Phishing 
 - Potential credentials thefts 
 - Risk level: high
 
-3.5. Finding 
+**3.5. Finding**
+
 The analysis of https://trzr-wallt-io.pages.dev/ results in :
 - Discovery: tactics TA007 and techniques T1012 and 1082
 - Brute force attempts
 
-3.6.IOC
-URLs: 
-o	https://trzr-wallt-io.pages.dev/ 
-o	http://trzr-wallt-io.pages.dev/ 
-o	https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
-o	https://login.live.com/ppsecure/deviceaddcredential.srf
-IPs
-o	172.66.44.172
-o	172.66.47.84
-o	142.251.14.132
-Domain
-o	trzr-wallt-io.pages.dev
+**3.6.IOC**
+
+**URLs:** 
+
+- https://trzr-wallt-io.pages.dev/ 
+- http://trzr-wallt-io.pages.dev/ 
+- https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
+- https://login.live.com/ppsecure/deviceaddcredential.srf
+
+**IPs**
+
+- 172.66.44.172
+- 172.66.47.84
+- 142.251.14.132
+
+**Domain**
+- trzr-wallt-io.pages.dev
 
 # 4. Target 9–10: https://en-uphuuld-walet-us.pages.dev/ , http://en-uphuuld-walet-us.pages.dev 
 
 The target 10 exhibits similar activity patterns and malicious behavior as https://en-uphuuld-walet-us.pages.dev/.
 
-4.1. VirusTotal investigation
-4.1.1. Phase1: initial analysis
+**4.1. VirusTotal investigation**
+**4.1.1. Phase1: initial analysis**
 The investigation of target https://en-uphuuld-walet-us.pages.dev/ using virustotal indicates that:
 - The URL was identified as malicious by 7 of 95 security vendors and associated with phishing attempts. This detection score may increase over time, as additional security vendors analyze and update their assessment.
 - The request returned a 200 status code, indicating a successful request.
 
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/3aa3386d-a9f6-4697-bee7-f4ac0038369b" />
 
-4.1.2. Phase2: Deep Analysis
+**4.1.2. Phase2: Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
 
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/4b74896b-9c99-4366-bdab-3f1c29daf352" />
 
-
-4.2.Any.run investigation
-4.2.1. Phase1: Initial analysis
+**4.2.Any.run investigation**
+**4.2.1. Phase1: Initial analysis**
 Initial analysis of as https://en-uphuuld-walet-us.pages.dev/ reveals that:
 - The request returned a 451 status code, indicating that the request is unavailable for legal reasons 
 
 <img width="945" height="448" alt="image" src="https://github.com/user-attachments/assets/5c65ec73-51c0-40b1-a5ef-76e3d0d847c3" />
 
+**4.1.2. Phase2: Deep Analysis**
 
-4.1.2. Phase2: Deep Analysis
 **Connections**
 Multiple suspicious connections were observed to the following domains:
 - 1a4s4dv-m.ns1pcdn.net
@@ -407,6 +424,7 @@ Multiple DNS requests with unknown reputations were observed:
 
 
 **HTTP/HTTPS requests**
+
 Multiple HTTPS requests were observed. All contacted URL appeared legitimate except:
 - Failed GET query to https://en-uphuuld-walet-us.pages.dev/ due to legal reasons. The non standard name of the host and the HTTP code (451) suggest that the request may be part of malicious activity.
 
@@ -428,6 +446,7 @@ Multiple HTTPS requests were observed. All contacted URL appeared legitimate exc
 
 
 **Process activity**
+
 Monitoring the process activity revealed that process ID 6556 was involved in Discovery tactics, using the following techniques: 
 - T012 --> Query registry
 - T082 --> System information discovery 
@@ -436,58 +455,64 @@ Monitoring the process activity revealed that process ID 6556 was involved in Di
 
 <img width="945" height="447" alt="image" src="https://github.com/user-attachments/assets/ef65d3d7-0e97-4873-bf4a-024ab0e88326" />
 
-4.3. Techniques identification
+**4.3. Techniques identification**
+
 The malicious URL uses the following technique to evade detection:
 - Abuse of a trusted hosting platform (cloudflare)
 - HTTPS
 
-4.4. Risk assessment
+**4.4. Risk assessment**
+
 The assessment identified the following threats:
 - Phishing
 - Possible credentials theft 
 - Potential malware delivery
 - Risk level: high
 
-4.5. Finding 
+**4.5. Finding**
+
 The analysis of as https://en-uphuuld-walet-us.pages.dev/ results in :
 - Discovery: tactics TA007 and techniques T1012 and 1082
 - Hidden malicious infrastructure
 - C2 communication
 
-4.6.IOC
-URLs: 
-o	https://en-uphuuld-walet-us.pages.dev/
-o	http://en-uphuuld-walet-us.pages.dev
-o	https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
-o	https://login.live.com/ppsecure/deviceaddcredential.srf
-IPs
-o	188.114.96.3
-o	104.18.30.78
-o	172.66.46.248
-domains
-o	en-uphuuld-walet-us.pages.dev
+**4.6.IOC**
+
+**URLs:**
+- https://en-uphuuld-walet-us.pages.dev/
+- http://en-uphuuld-walet-us.pages.dev
+- https://clients2.googleusercontent.com/crx/blobs/AQx-wa5gNjUbZEbhJvWB8rq8EGp-U7V18pcxMMBvAEPLmtMndDMphKwrvuJ5LT_TatNkvmvRK0k-gFR-mTEBKmjLyQHlP-OqJ_PO_yKnLnl5P-LIP-vs0RUl-m5v2pZkKwoAxlKa5d7akqSM9-Uq0gw7UzwwbrrcTXbu/GHBMNNJOOEKPMOECNNNILNNBDLOLHKHI_1_102_1_0.crx
+- https://login.live.com/ppsecure/deviceaddcredential.srf
+
+**IPs**
+- 188.114.96.3
+- 104.18.30.78
+- 172.66.46.248
+  
+**domains**
+- en-uphuuld-walet-us.pages.dev
 
 # 5. Target 19–28: http://185.208.159.132/harm7
 
 The target 19 to target 28 exhibits similar activity patterns and malicious behavior as http://185.208.159.132/harm7.
 
-5.1. VirusTotal investigation
-5.1.1. Phase1: initial analysis
+**5.1. VirusTotal investigation**
+**5.1.1. Phase1: initial analysis**
 The investigation of target http://185.208.159.132/harm7 using virustotal indicates that:
 - 13 of 95 security vendors flagged it as malicious and associated with malware. This detection is not static and may increase over time, as additional security vendors analyses and update their assessment.
 - The request returned 404 a code status. This indicates that the request fails and the resource is not available.
 
 <img width="945" height="451" alt="image" src="https://github.com/user-attachments/assets/9d5081a3-90de-4d5b-bbf7-6123c01bea1c" />
 
-5.1.2. Phase2: Deep Analysis
+**5.1.2. Phase2: Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
 
 <img width="945" height="407" alt="image" src="https://github.com/user-attachments/assets/ad00591d-3781-4358-8583-9ecb4d33860b" />
 
-5.2.Any.run investigation
-5.2.1. Phase1: Initial analysis
+**5.2.Any.run investigation**
+**5.2.1. Phase1: Initial analysis**
 Initial analysis of http://185.208.159.132/harm7 reveals that:
 - The request returned 404 code status, indicating that the resource is not available.
 
@@ -497,7 +522,7 @@ Investigating the IP using abuselPDB confirms that the IP used is 100% malicious
 
 <img width="983" height="457" alt="image" src="https://github.com/user-attachments/assets/6cfa7ea1-23ad-4fc1-b934-1f6a07ab492a" />
 
-5.1.2. Phase2: Deep Analysis
+**5.1.2. Phase2: Deep Analysis**
 
 **HTTP/HTTPS requests**
 Multiple HTTPS requests were observed. All contacted URL appeared legitimate except:
@@ -519,27 +544,31 @@ Monitoring the process activity revealed that process ID 5400 was involved in Di
 
 <img width="945" height="340" alt="image" src="https://github.com/user-attachments/assets/7f5fe68d-be56-4d21-b4ea-4c7fbd691dfc" />
 
-5.3. Techniques identification
+**5.3. Techniques identification**
+
 The malicious URL uses cloud services technique to evade detection.
 
-5.4. Risk assessment
+**5.4. Risk assessment**
+
 The assessment identified the following threats:
-•	Phishing 
-•	Potential payload delivery
-•	Possible credential thefts
-•	Risk level: high
+- Phishing 
+- Potential payload delivery
+- Possible credential thefts
+- Risk level: high
 
-5.5. Finding 
+**5.5. Finding**
 The analysis of as http://185.208.159.132/harm7 results in :
-•	Discovery: tactics TA007 and techniques T1012 and 1082
-•	Possible payload delivery 
+- Discovery: tactics TA007 and techniques T1012 and 1082
+- Possible payload delivery
+  
+**5.6.IOC** 
 
-5.6.IOC
-URLs: 
-o	http://185.208.159.132/harm7
-o	https://login.live.com/ppsecure/deviceaddcredential.srf
-IPs
-o	185.208.159.132
+**URLs:** 
+- http://185.208.159.132/harm7
+- https://login.live.com/ppsecure/deviceaddcredential.srf
+
+**IPs**
+- 185.208.159.132
 
 ---
 # Conclusion
