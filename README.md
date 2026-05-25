@@ -378,7 +378,7 @@ The investigation of target https://en-uphuuld-walet-us.pages.dev/ using virusto
 
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/3aa3386d-a9f6-4697-bee7-f4ac0038369b" />
 
-**4.1.2. Phase2: Deep Analysis**
+**4.1.2. Phase2:Deep Analysis**
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
@@ -386,13 +386,13 @@ Further investigation shows that:
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/4b74896b-9c99-4366-bdab-3f1c29daf352" />
 
 **4.2.Any.run investigation**
-**4.2.1. Phase1: Initial analysis**
+**4.2.1. Phase1:Initial analysis**
 Initial analysis of as https://en-uphuuld-walet-us.pages.dev/ reveals that:
 - The request returned a 451 status code, indicating that the request is unavailable for legal reasons 
 
 <img width="945" height="448" alt="image" src="https://github.com/user-attachments/assets/5c65ec73-51c0-40b1-a5ef-76e3d0d847c3" />
 
-**4.1.2. Phase2: Deep Analysis**
+**4.1.2. Phase2:Deep Analysis**
 
 **Connections**
 Multiple suspicious connections were observed to the following domains:
