@@ -63,6 +63,7 @@ The analysis identified:
 # 1. Target 1: https://informacoes-limpabrasil2026.netlify.app/ 
 **1.1. VirusTotal investigation**
 **1.1.1. Phase1: initial analysis**
+
 The investigation of target https://informacoes-limpabrasil2026.netlify.app/ using virustotal indicates that:
 - The URL was flagged as malicious by 8 of 95 security vendors and is associated with phishing activities. The detection score is not static and may evolve over time as additional security vendors analyze the link and update their assessment.
 - The HTTP response returned a 404 code status, indicating that the resource is not available.
@@ -80,6 +81,7 @@ Further investigation shows that:
 
 **1.2.Any.run investigation**
 **1.2.1. Phase1: Initial analysis**
+
 Initial analysis reveals that:
 - The response indicates the resource is not available (code status 404).
 - The response suggests that the link is invalid or doesn’t exist in Netlify and provides a troubleshooting link for sites not found
@@ -177,6 +179,7 @@ The analysis of https://informacoes-limpabrasil2026.netlify.app/ results in:
 # 2. Target 2: https://Skillwicked.cc/ 
 **2.1. VirusTotal investigation**
 **2.1.1. Phase1: initial analysis**
+
 The investigation of target https://Skillwicked.cc/ using virustotal indicates that:
 - The URL was identified as malicious by 8 of 95 security vendors and is associated to phishing activity. The detection score is not static and may change over time, as additional security vendors analyze and update their assessment.
 The requested returned a 200 code status, indicating successful request
@@ -184,6 +187,7 @@ The requested returned a 200 code status, indicating successful request
 <img width="945" height="452" alt="image" src="https://github.com/user-attachments/assets/646811bd-2c09-4187-bd5b-fc4106196ae1" />
 
 **2.1.2. Phase2: Deep Analysis**
+
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
@@ -192,6 +196,7 @@ Further investigation shows that:
 
 **2.2.Any.run investigation**
 **2.2.1. Phase1: Initial analysis**
+
 Initial analysis of https://Skillwicked.cc/ reveals that:
 - The site is active and under construction.
 - The request returned a 200 code status, indicating that the resource is available
@@ -279,6 +284,7 @@ The target 6 exhibits similar activity patterns and malicious behavior as https:
 
 **3.1. VirusTotal investigation**
 **3.1.1. Phase1: initial analysis**
+
 The investigation of target https://trzr-wallt-io.pages.dev/ using virustotal indicates that:
 - The URL was identified as malicious by 18 of 95 security vendors and associated with phishing attempts. This detection score may increase over time, as additional security vendors analyze and update their assessment.
 - The request returned a 200 status code, indicating a successful request.
@@ -294,6 +300,7 @@ Further investigation shows that:
 
 **3.2.Any.run investigation**
 **3.2.1. Phase1: Initial analysis**
+
 Initial analysis of https://trzr-wallt-io.pages.dev/  reveals that:
 - The site is active, mimics legitimate cryptocurrency websites and appears like hardware that provides maximum security for cryptocurrency.
 - The request returned a 200 status code, indicating that the request is successful 
@@ -302,6 +309,7 @@ Initial analysis of https://trzr-wallt-io.pages.dev/  reveals that:
 
 **3.1.2. Phase2: Deep Analysis**
 **DNS requests**
+
 Multiple DNS requests were observed. All contacted domains were whitelisted and considered safe, except trzr-wallt-io.pages.dev domain whose reputation is unknown.
 
 <img width="983" height="169" alt="image" src="https://github.com/user-attachments/assets/a6f66e6c-d165-4f2a-b9e6-d8a234823497" />
@@ -372,6 +380,7 @@ The target 10 exhibits similar activity patterns and malicious behavior as https
 
 **4.1. VirusTotal investigation**
 **4.1.1. Phase1: initial analysis**
+
 The investigation of target https://en-uphuuld-walet-us.pages.dev/ using virustotal indicates that:
 - The URL was identified as malicious by 7 of 95 security vendors and associated with phishing attempts. This detection score may increase over time, as additional security vendors analyze and update their assessment.
 - The request returned a 200 status code, indicating a successful request.
@@ -379,6 +388,7 @@ The investigation of target https://en-uphuuld-walet-us.pages.dev/ using virusto
 <img width="945" height="449" alt="image" src="https://github.com/user-attachments/assets/3aa3386d-a9f6-4697-bee7-f4ac0038369b" />
 
 **4.1.2. Phase2:Deep Analysis**
+
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
@@ -387,6 +397,7 @@ Further investigation shows that:
 
 **4.2.Any.run investigation**
 **4.2.1. Phase1:Initial analysis**
+
 Initial analysis of as https://en-uphuuld-walet-us.pages.dev/ reveals that:
 - The request returned a 451 status code, indicating that the request is unavailable for legal reasons 
 
@@ -498,6 +509,7 @@ The target 19 to target 28 exhibits similar activity patterns and malicious beha
 
 **5.1. VirusTotal investigation**
 **5.1.1. Phase1: initial analysis**
+
 The investigation of target http://185.208.159.132/harm7 using virustotal indicates that:
 - 13 of 95 security vendors flagged it as malicious and associated with malware. This detection is not static and may increase over time, as additional security vendors analyses and update their assessment.
 - The request returned 404 a code status. This indicates that the request fails and the resource is not available.
@@ -505,6 +517,7 @@ The investigation of target http://185.208.159.132/harm7 using virustotal indica
 <img width="945" height="451" alt="image" src="https://github.com/user-attachments/assets/9d5081a3-90de-4d5b-bbf7-6123c01bea1c" />
 
 **5.1.2. Phase2: Deep Analysis**
+
 Further investigation shows that:
 - No DNS requests, HTTP/HTTPS traffic, and process activities were observed.
 - The URL was recently created.
@@ -513,6 +526,7 @@ Further investigation shows that:
 
 **5.2.Any.run investigation**
 **5.2.1. Phase1: Initial analysis**
+
 Initial analysis of http://185.208.159.132/harm7 reveals that:
 - The request returned 404 code status, indicating that the resource is not available.
 
